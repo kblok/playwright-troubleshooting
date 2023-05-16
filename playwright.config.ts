@@ -3,7 +3,7 @@ import { devices, type PlaywrightTestConfig } from '@playwright/test';
 const config: PlaywrightTestConfig = {
   use: {
     screenshot: 'on',
-    headless: false,
+    headless: true,
     ignoreHTTPSErrors: true,
   },
   snapshotDir: './snapshots',
